@@ -7,5 +7,13 @@
       "sourceMap": true,
       "outDir": "./dist"
     },
+    "exclude": [
+      "node_modules",
+      ".vscode",
+      ".idea",
+      ".vs",
+      "**/*.spec.ts",
+      "**/*.test.ts"
+    ],
     "lib": ["es2015"]
   }
