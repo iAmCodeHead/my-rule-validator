@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "A simple rule-validation API",
   "main": "src/server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "jest",
     "start": "node ./dist/src/app.js",
     "dev": "nodemon ./src/app.ts",
-    "build": "tsc"
+    "build": "rimraf ./dist && tsc"
   },
   "keywords": [],
   "author": "Samson Akande",
